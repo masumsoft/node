@@ -61,3 +61,6 @@ deps/openssl/openssl.xml
 
 # test artifacts
 tools/faketime
+
+# ide generated files
+/.idea
