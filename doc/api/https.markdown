@@ -97,6 +97,8 @@ The options argument has the following options
   Defaults to `'localhost'`.
 - `hostname`: To support `url.parse()` `hostname` is preferred over `host`
 - `port`: Port of remote server. Defaults to 443.
+- `dnsResolve` : Boolean indicating whether to use dns.resolve instead of 
+  dns.lookup which uses the system dns resolver. Defaults to `false`
 - `method`: A string specifying the HTTP request method. Defaults to `'GET'`.
 - `path`: Request path. Defaults to `'/'`. Should include query string if any.
   E.G. `'/index.html?page=12'`
