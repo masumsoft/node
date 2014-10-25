@@ -67,6 +67,9 @@ For TCP sockets, `options` argument should be an object which specifies:
   - `host`: Host the client should connect to. Defaults to `'localhost'`.
 
   - `localAddress`: Local interface to bind to for network connections.
+  
+  - `dnsResolve` : Boolean indicating whether to use dns.resolve instead of 
+    dns.lookup which uses the system dns resolver. Defaults to `false`
 
 For UNIX domain sockets, `options` argument should be an object which specifies:
 
